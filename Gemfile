@@ -17,3 +17,4 @@ gem 'jquery-rails'
 group :test do
 gem 'capybara'
 end
+gem 'turbolinks'
