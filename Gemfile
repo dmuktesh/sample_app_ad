@@ -5,6 +5,7 @@ gem 'pry'
 gem 'pry-nav'
 group :development, :test do
 gem 'rspec-rails'
+gem 'capybara'
 end
 # Gems used only for assets and not required
 # in production environments by default.
@@ -13,8 +14,6 @@ gem 'sass-rails'
 gem 'coffee-rails'
 gem 'uglifier'
 end
+
 gem 'jquery-rails'
-group :test do
-gem 'capybara'
-end
 gem 'turbolinks'
